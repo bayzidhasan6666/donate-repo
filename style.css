@@ -26,7 +26,7 @@ header{
 
 }
 .description{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: normal;
 
 }
@@ -36,7 +36,10 @@ header{
 .today{
     text-align: center;
 }
-
+hr{
+    width: 557px;
+    margin: 0 auto;
+}
 .plan{
     text-align: center;
 }
@@ -68,6 +71,7 @@ button{
     color: red;
     border: 2px solid red;
 }
+
 /* donate section */
 .donate{
     display: flex;
@@ -103,4 +107,36 @@ button{
     padding-top: 50px;
     border-radius: 5px;
     padding-left: 50px;
+}
+.donate .i{
+    margin-bottom: 20px;
+}
+.donate .t{
+    margin-bottom: 20px;
+}
+.donate .d{
+    margin-right: 50px;
+    text-align: justify;
+}
+/* lives styles */
+.lives{
+    display: flex;
+    padding: 30px;
+    gap: 130px;
+    margin: 0 400px;
+}
+.lives .lives-t{
+    font-size: 40px;
+}
+.lives .lives-d{
+     width: 460px;
+     text-align: justify;
+}
+.lives .lives-i{
+     height: 350px;
+     width: 450px;
+     border-radius: 5px;
+}
+.today .opacity{
+    color: rgb(179, 177, 177);
 }

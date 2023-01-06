@@ -71,29 +71,36 @@ button{
 /* donate section */
 .donate{
     display: flex;
+    padding: 30px;
     gap: 30px;
-    width: 80%;
-    margin: auto;
+    margin: 0 400px;
+    
 }
 .donate .food{
     background-color: rgb(226, 253, 255);
     height: 250px;
-    width: 600px;
+    width: 300px;
     padding-top: 50px;
     border-radius: 5px;
+    padding-left: 50px;
+    
+
     
 }
 .donate .sheiter{
     background-color: rgb(255, 227, 227);
     height: 250px;
-    width: 600px;
+    width: 300px;
     padding-top: 50px;
     border-radius: 5px;
+    padding-left: 50px;
+    
 }
 .donate .education{
     background-color: rgb(252, 241, 219);
     height: 250px;
-    width: 600px;
+    width: 300px;
     padding-top: 50px;
     border-radius: 5px;
+    padding-left: 50px;
 }
